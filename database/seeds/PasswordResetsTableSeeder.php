@@ -1,0 +1,23 @@
+<?php
+/*
+ * File name: PasswordResetsTableSeeder.php
+
+ * Author: DAS360
+ * Copyright (c) 2022
+ */
+
+use Illuminate\Database\Seeder;
+
+class PasswordResetsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('password_resets')->delete();
+    }
+}
